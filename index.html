@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Rebuild</title>
+        <link href="reset.css" rel="stylesheet">
+    </head>
+    <body>
+        <style>
+            body{
+                font-family: arial, sans-serif;
+                font-size: 13px;
+            }
+            a{
+                text-decoration: none;
+            }
+            li{
+                float:left;
+                list-style: none;
+                margin: 25px 10px 0 10px;
+            }
+            ul{
+                margin: 0 20px 0 15px;
+            }
+            #left-nav{
+                float: left;
+                opacity: 0.75;
+            }
+            #right-nav{
+                float: right;
+            }
+            #google-apps{
+                display: grid;
+                grid-template-columns: 4px 4px 4px;
+                grid-template-rows: 4px 4px 4px;
+                grid-gap: 2px 2px;
+            }
+            #google-apps div{
+                background-color: rgb(71, 65, 65);
+            }
+            nav button{
+                background: #4285f4;
+                border-color: rgb(66, 133, 244);
+                border-style: solid;
+                border-width: 1px;
+                border-radius: 2px;
+                color: white;
+                font-weight: bold;
+                line-height: 28px;
+                padding: 0 12px;
+                position: relative;
+                bottom: 6px;
+            }
+        </style>
+        <header>
+            <nav>
+              <ul id="left-nav">
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Store</a></li>
+              </ul>  
+              <ul id="right-nav">
+                  <li><a href="#">Gmail</a></li>
+                  <li><a href="#">Images</a></li>
+                  <li>
+                    <a href="#" id="google-apps" title="Google apps">
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                      <div></div>
+                    </a>
+                  </li>
+                  <li>
+                      <button>Sign in</button>
+                  </li>
+              </ul>
+
+            </nav>
+        </header>
+        
+    </body>
+</html>
