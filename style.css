@@ -1,0 +1,153 @@
+body{
+    font-family: arial, sans-serif;
+    font-size: 13px;
+}
+header{
+    border: 1px solid transparent;
+}
+li a{
+    text-decoration: none;
+    color:rgb(34, 34, 34)
+}
+li{
+    float:left;
+    list-style: none;
+    margin: 25px 10px 0 10px;
+}
+nav ul{
+    margin: 0 20px 0 15px;
+}
+#left-nav{
+    float: left;
+    opacity: 0.75;
+}
+#right-nav{
+    float: right;
+}
+#google-apps{
+    display: grid;
+    grid-template-columns: 4px 4px 4px;
+    grid-template-rows: 4px 4px 4px;
+    grid-gap: 2px 2px;
+}
+#google-apps div{
+    background-color: rgb(71, 65, 65);
+}
+nav button{
+    background: #4285f4;
+    border-color: rgb(66, 133, 244);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    color: white;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0 12px;
+    position: relative;
+    bottom: 6px;
+}
+form button{
+    background-color:#f2f2f2;
+    color: #5F6368;
+    height: 36px;
+    width: 135px;
+    margin:  0 5px 0 5px;
+    border-radius: 5px;
+    border: 1px solid #f2f2f2;
+    font-size: 14px;
+    line-height: 27px;
+}
+main{
+    margin: 0 auto;
+    width: 750px;
+    text-align: center;
+    margin-top: 200px;
+}
+h1{
+    font-size: 100px;
+    font-weight: bold;
+    color: pink;
+}
+form{
+    padding-top: 20px;
+}
+#search-box{
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    height: 40px;
+    border-radius: 50px;
+    outline: none;
+    padding-left: 40px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(154, 160, 166, 0.4);
+}
+#search-icon{
+    color: #9AA0A6;
+    height: 20px;
+    width: 20px;
+    fill: rgb(154, 160, 166);
+    position:relative;
+    right: 230px;
+    bottom: 35px;
+}
+#mic-icon{
+    height: 24px;
+    width: 24px;
+    position:relative;
+    left: 240px;
+    bottom: 35px;
+}
+#search-lang{
+    margin-top: 30px;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    opacity: 0.75;
+    font-size: 14px;
+    background-color:#f2f2f2;
+    padding-bottom: 15px;
+}
+footer p{
+    border-bottom: 1px solid #c2c5c2;
+    border-top: 1px solid #c2c5c2;
+    padding: 15px 0 15px 30px;
+    color:rgb(34, 34, 34)
+}
+footer div{
+    padding: 15px 18px 15px 18px;
+}
+#left-footer{
+    float: left;
+}
+#right-footer{
+    float: right;
+}
+#right-footer li, #left-footer li{
+    padding-top: 0px;
+    margin: 0px 12px 0 12px; 
+}
+@media only screen and (max-width: 580px){
+    nav {
+        display: none;
+    }
+}
+@media (max-width: 1000px){
+    body {
+        width: 1000px;
+    }
+    footer{
+        width: 1000px;
+    }
+}
+.visuallyHidden{
+        position: absolute;
+        left: -10000px;
+        width: 1px;
+        height: 1px;
+        top: auto;
+        overflow: hidden;
+}
